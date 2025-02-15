@@ -1,0 +1,44 @@
+.about-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./safe.avif');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.about-content {
+  max-width: 768px;
+  text-align: center;
+  padding: 24px;
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.about-content p {
+  font-size: 1.125rem;
+  color: #d1d5db; /* Equivalent to text-gray-300 */
+  margin-bottom: 1.5rem;
+}
+
+.about-content button {
+  padding: 12px 24px;
+  background-color: #2563eb; /* Equivalent to bg-blue-600 */
+  color: white;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.about-content button:hover {
+  background-color: #3b82f6; /* Equivalent to hover:bg-blue-500 */
+}

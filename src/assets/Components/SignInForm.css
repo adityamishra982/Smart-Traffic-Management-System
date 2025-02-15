@@ -1,0 +1,114 @@
+/* SignInForm.css */
+.sign-in-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    color: black; /* Set text color to black */
+}
+
+.sign-in-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: black; /* Set text color to black */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    color: black; /* Set text color to black */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black; /* Set text color to black */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black; /* Set text color to black */
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-group button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+}
+
+.button-group button[type="button"] {
+    background-color: #f44336;
+    color: white;
+}
+
+.button-group button:hover {
+    opacity: 0.8;
+}
+
+.error {
+    color: #f44336;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.social-sign-in {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-sign-in button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.social-sign-in button svg {
+    margin-right: 8px;
+}
+
+.google-sign-in {
+    background-color: #db4437;
+    color: white;
+}
+
+.google-sign-in:hover {
+    background-color: #c33d30;
+}
+
+.apple-sign-in {
+    background-color: #000;
+    color: white;
+}
+
+.apple-sign-in:hover {
+    background-color: #333;
+}

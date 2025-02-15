@@ -1,0 +1,73 @@
+/* Map.css */
+.sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0; /* Fix the sidebar to the left */
+  width: 250px;
+  height: 100%; /* Full height of the viewport */
+  background-color: #333;
+  color: #fff;
+  transition: width 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #222;
+}
+
+.logo {
+  width: 50px;
+}
+
+.close-icon {
+  cursor: pointer;
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+.sidebar a:hover {
+  background-color: #575757;
+}
+
+.sidebar .icon {
+  margin-right: 10px;
+}
+
+.sidebar a .text {
+  display: inline-block;
+  transition: opacity 0.3s;
+}
+
+.dropdown {
+  background-color: #444;
+  padding: 10px;
+  border: 1px solid #555;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.search-list {
+  list-style: none;
+}
+
+.search-list li {
+  padding: 5px;
+  }
